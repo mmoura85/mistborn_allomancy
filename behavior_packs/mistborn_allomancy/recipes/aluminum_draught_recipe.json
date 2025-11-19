@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mistborn:aluminum_draught"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      " S ",
+      "SBS",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:iron_nugget"
+      },
+      "B": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "result": {
+      "item": "mistborn:aluminum_draught",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:iron_nugget"
+      }
+    ]
+  }
+}

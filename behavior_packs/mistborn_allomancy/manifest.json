@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Mistborn: Allomancy",
+    "description": "Adds Allomantic powers from Brandon Sanderson's Mistborn series, starting with Pewter enhancement",
+    "uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "version": [1, 1, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "version": [1, 1, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b26a4d4c-afdf-4690-8b1e-0c9e1a8e91e5",
+      "version": [1, 20, 0]
+    }
+  ]
+}

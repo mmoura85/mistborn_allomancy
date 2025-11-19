@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mistborn:mistcloak_hood"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "NON",
+      "L L"
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "O": {
+        "item": "minecraft:obsidian"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "mistborn:mistcloak_hood",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:netherite_scrap"
+      }
+    ]
+  }
+}

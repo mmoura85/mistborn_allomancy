@@ -1,0 +1,17 @@
+{
+  "values": [
+    "mistborn/investiture_system",
+    "mistborn/investiture_display",
+    "mistborn/detect_lerasium",
+    "mistborn/detect_pewter",
+    "mistborn/detect_tin",
+    "mistborn/detect_chromium",
+    "mistborn/detect_aluminum",
+    "mistborn/detect_duralumin",
+    "mistborn/tin_sense",
+    "mistborn/chromium_effect",
+    "mistborn/duralumin_flare",
+    "mistborn/glass_knife_effects",
+    "mistborn/mistcloak_armor_effects"
+  ]
+}

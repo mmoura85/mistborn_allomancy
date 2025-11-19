@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mistborn:glass_knife",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:max_damage": 250,
+      "minecraft:durability": {
+        "max_durability": 250,
+        "damage_chance": {
+          "min": 100,
+          "max": 100
+        }
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:glint": true,
+      "minecraft:icon": {
+        "texture": "glass_knife"
+      },
+      "minecraft:display_name": {
+        "value": "Allomancer's Glass Knife"
+      },
+      "minecraft:damage": {
+        "value": 8
+      },
+      "minecraft:digger": {
+        "use_efficiency": false,
+        "destroy_speeds": []
+      },
+      "minecraft:tags": {
+        "tags": [
+          "mistborn:glass_knife"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "resource_pack_name": "mistborn_allomancy",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "pewter_draught": {
+      "textures": "textures/items/pewter_draught"
+    },
+    "tin_draught": {
+      "textures": "textures/items/tin_draught"
+    },
+    "lerasium_bead": {
+      "textures": "textures/items/lerasium_bead"
+    },
+     "aluminum_draught": {
+      "textures": "textures/items/aluminum_draught"
+    },
+     "chromium_draught": {
+      "textures": "textures/items/chromium_draught"
+    },
+     "duralumin_draught": {
+      "textures": "textures/items/duralumin_draught"
+    },
+     "glass_knife": {
+      "textures": "textures/items/glass_knife"
+    },
+     "mistcloak_boots": {
+      "textures": "textures/items/mistcloak_boots"
+    },
+     "mistcloak_hood": {
+      "textures": "textures/items/mistcloak_hood"
+    },
+     "mistcloak_pants": {
+      "textures": "textures/items/mistcloak_pants"
+    },
+     "mistcloak": {
+      "textures": "textures/items/mistcloak"
+    }
+  }
+}

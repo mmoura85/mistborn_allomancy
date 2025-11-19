@@ -1,0 +1,37 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mistborn:lerasium_bead"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "NEN",
+      "EDC",
+      "NEN"
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "E": {
+        "item": "minecraft:emerald"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "C": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "item": "mistborn:lerasium_bead",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ]
+  }
+}
