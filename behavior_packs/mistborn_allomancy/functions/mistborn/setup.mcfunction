@@ -15,3 +15,7 @@ scoreboard objectives add chromium_duration dummy "Chromium Duration"
 scoreboard objectives add aluminum_use_check dummy "Aluminum Use Check"
 scoreboard objectives add duralumin_use_check dummy "Duralumin Use Check"
 scoreboard objectives add duralumin_duration dummy "Duralumin Duration"
+
+# Steel/Iron scoreboards
+scoreboard objectives add steel_use_check dummy "Steel Use Check"
+scoreboard objectives add steel_push_cooldown dummy "Steel Push Cooldown"

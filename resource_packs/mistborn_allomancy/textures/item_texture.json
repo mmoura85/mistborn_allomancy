@@ -8,6 +8,9 @@
     "tin_draught": {
       "textures": "textures/items/tin_draught"
     },
+    "steel_draught": {
+      "textures": "textures/items/steel_draught"
+    },
     "lerasium_bead": {
       "textures": "textures/items/lerasium_bead"
     },
