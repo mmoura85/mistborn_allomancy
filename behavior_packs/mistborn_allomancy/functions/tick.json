@@ -9,10 +9,12 @@
     "mistborn/detect_aluminum",
     "mistborn/detect_duralumin",
     "mistborn/detect_steel",
+    "mistborn/detect_coin_throw",
     "mistborn/pewter_passive",
     "mistborn/tin_passive",
     "mistborn/chromium_effect",
     "mistborn/duralumin_flare",
+    "mistborn/steel_push",
     "mistborn/glass_knife_effects",
     "mistborn/mistcloak_armor_effects"
   ]
