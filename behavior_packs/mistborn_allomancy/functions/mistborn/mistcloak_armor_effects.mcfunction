@@ -1,3 +1,4 @@
+# Per-piece armor effects
 execute as @a[hasitem={item=mistborn:mistcloak_hood,location=slot.armor.head}] run effect @s night_vision 15 0 true
 
 execute as @a[hasitem={item=mistborn:mistcloak,location=slot.armor.chest}] run effect @s resistance 2 1 true
@@ -6,11 +7,13 @@ execute as @a[hasitem={item=mistborn:mistcloak_pants,location=slot.armor.legs}] 
 
 execute as @a[hasitem={item=mistborn:mistcloak_boots,location=slot.armor.feet}] run effect @s jump_boost 2 0 true
 
+# Mistcloak gliding effect (chest only)
 execute as @a[hasitem={item=mistborn:mistcloak,location=slot.armor.chest}] at @s unless block ~ ~-1 ~ air run tag @s remove mistcloak_gliding
 execute as @a[hasitem={item=mistborn:mistcloak,location=slot.armor.chest}] at @s if block ~ ~-1 ~ air run tag @s add mistcloak_gliding
 execute as @a[tag=mistcloak_gliding] run effect @s slow_falling 2 0 true
 execute as @a[tag=mistcloak_gliding] run effect @s speed 2 1 true
 
+# Full set detection
 execute as @a[hasitem={item=mistborn:mistcloak_hood,location=slot.armor.head}] run tag @s add temp_has_hood
 execute as @a[hasitem={item=mistborn:mistcloak,location=slot.armor.chest}] run tag @s add temp_has_cloak
 execute as @a[hasitem={item=mistborn:mistcloak_pants,location=slot.armor.legs}] run tag @s add temp_has_pants
